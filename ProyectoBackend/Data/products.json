@@ -1,0 +1,38 @@
+[
+    {
+        "Type": "Computer",
+        "Name": "PC Oficina Básica",
+        "Price": 6500.0,
+        "Components": [ "Intel Core i3-12100F", "GTX 1650", "8GB DDR4 3200MHz", "ASUS Prime H610M" ]
+    },
+    {
+        "Type": "Computer",
+        "Name": "PC Home Office Pro",
+        "Price": 8900.0,
+        "Components": [ "AMD Ryzen 5 5600G", "Gráficos Integrados", "16GB (2x8) DDR4 3200MHz", "ASRock B450M Steel Legend" ]
+    },
+    {
+        "Type": "Computer",
+        "Name": "Gamer de Entrada",
+        "Price": 14500.0,
+        "Components": [ "Intel Core i5-12400", "NVIDIA RTX 3060 12GB", "16GB (2x8) DDR4 3200MHz", "Gigabyte B660M DS3H" ]
+    },
+    {
+        "Type": "Computer",
+        "Name": "Gamer Medio - Ryzen Edition",
+        "Price": 19900.0,
+        "Components": [ "AMD Ryzen 7 5800X3D", "AMD Radeon RX 6600", "32GB (2x16) DDR4 3600MHz", "MSI MAG B550 Tomahawk" ]
+    },
+    {
+        "Type": "Computer",
+        "Name": "Ultra Gaming 4K",
+        "Price": 42000.0,
+        "Components": [ "Intel Core i7-12700K", "NVIDIA RTX 4070", "32GB (2x16) DDR5 6000MHz", "ASUS ROG Strix Z790-E" ]
+    },
+    {
+        "Type": "Computer",
+        "Name": "Monster Creator PC",
+        "Price": 85000.0,
+        "Components": [ "Intel Core i9-13900K", "NVIDIA RTX 4090", "64GB (2x32) DDR5 6400MHz", "ASUS ROG Strix Z790-E" ]
+    }
+]

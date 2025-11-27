@@ -1,0 +1,175 @@
+[
+    
+        {
+            "Category": "CPU",
+            "Name": "Intel Core i3-12100F",
+            "Price": 2200.0,
+            "Stock": 20
+        },
+        {
+            "Category": "CPU",
+            "Name": "Intel Core i5-12400",
+            "Price": 3600.0,
+            "Stock": 15
+        },
+        {
+            "Category": "CPU",
+            "Name": "Intel Core i7-12700K",
+            "Price": 7200.0,
+            "Stock": 8
+        },
+        {
+            "Category": "CPU",
+            "Name": "Intel Core i9-13900K",
+            "Price": 11900.0,
+            "Stock": 4
+        },
+        {
+            "Category": "CPU",
+            "Name": "AMD Ryzen 3 4100",
+            "Price": 1600.0,
+            "Stock": 25
+        },
+        {
+            "Category": "CPU",
+            "Name": "AMD Ryzen 5 5600G",
+            "Price": 2900.0,
+            "Stock": 12
+        },
+        {
+            "Category": "CPU",
+            "Name": "AMD Ryzen 7 5800X3D",
+            "Price": 6400.0,
+            "Stock": 6
+        },
+        {
+            "Category": "CPU",
+            "Name": "AMD Ryzen 9 7950X",
+            "Price": 12500.0,
+            "Stock": 3
+        },
+
+        {
+            "Category": "GPU",
+            "Name": "NVIDIA GTX 1650",
+            "Price": 3200.0,
+            "Stock": 10
+        },
+        {
+            "Category": "GPU",
+            "Name": "NVIDIA RTX 3050",
+            "Price": 5500.0,
+            "Stock": 14
+        },
+        {
+            "Category": "GPU",
+            "Name": "NVIDIA RTX 3060 12GB",
+            "Price": 6900.0,
+            "Stock": 9
+        },
+        {
+            "Category": "GPU",
+            "Name": "NVIDIA RTX 4060 Ti",
+            "Price": 8500.0,
+            "Stock": 7
+        },
+        {
+            "Category": "GPU",
+            "Name": "NVIDIA RTX 4070",
+            "Price": 11500.0,
+            "Stock": 5
+        },
+        {
+            "Category": "GPU",
+            "Name": "NVIDIA RTX 4090",
+            "Price": 36000.0,
+            "Stock": 2
+        },
+        {
+            "Category": "GPU",
+            "Name": "AMD Radeon RX 6600",
+            "Price": 4200.0,
+            "Stock": 11
+        },
+        {
+            "Category": "GPU",
+            "Name": "AMD Radeon RX 7900 XT",
+            "Price": 18500.0,
+            "Stock": 4
+        },
+
+        {
+            "Category": "Motherboard",
+            "Name": "ASUS Prime H610M",
+            "Price": 1800.0,
+            "Stock": 18
+        },
+        {
+            "Category": "Motherboard",
+            "Name": "Gigabyte B660M DS3H",
+            "Price": 2500.0,
+            "Stock": 12
+        },
+        {
+            "Category": "Motherboard",
+            "Name": "MSI MAG B550 Tomahawk",
+            "Price": 3400.0,
+            "Stock": 10
+        },
+        {
+            "Category": "Motherboard",
+            "Name": "ASUS ROG Strix Z790-E",
+            "Price": 9500.0,
+            "Stock": 3
+        },
+        {
+            "Category": "Motherboard",
+            "Name": "ASRock B450M Steel Legend",
+            "Price": 2100.0,
+            "Stock": 15
+        },
+        {
+            "Category": "Motherboard",
+            "Name": "Gigabyte X670 AORUS Elite",
+            "Price": 5800.0,
+            "Stock": 5
+        },
+
+        {
+            "Category": "RAM",
+            "Name": "8GB DDR4 3200MHz",
+            "Price": 550.0,
+            "Stock": 40
+        },
+        {
+            "Category": "RAM",
+            "Name": "16GB (2x8) DDR4 3200MHz",
+            "Price": 950.0,
+            "Stock": 30
+        },
+        {
+            "Category": "RAM",
+            "Name": "32GB (2x16) DDR4 3600MHz",
+            "Price": 1800.0,
+            "Stock": 15
+        },
+        {
+            "Category": "RAM",
+            "Name": "16GB DDR5 5200MHz",
+            "Price": 1400.0,
+            "Stock": 20
+        },
+        {
+            "Category": "RAM",
+            "Name": "32GB (2x16) DDR5 6000MHz",
+            "Price": 2900.0,
+            "Stock": 10
+        },
+        {
+            "Category": "RAM",
+            "Name": "64GB (2x32) DDR5 6400MHz",
+            "Price": 5600.0,
+            "Stock": 4
+        }
+    
+]
