@@ -15,13 +15,13 @@ namespace ProyectoBackend.Infrastructure
         // Instancia única del inventario (Singleton).
         private static ComponentInventory? _instance;
 
-        // Guarda el stock actual de cada componente por nombre.
+       
         private readonly Dictionary<string, int> _stock = new();
 
-        // Lista de observadores que serán notificados cuando el stock cambie.
+       
         private readonly List<IStockObserver> _observers = new();
 
-        // Constructor privado que carga el inventario inicial desde components.json.
+        
         private ComponentInventory()
         {
             var comps = JsonDataStore.LoadComponents();
@@ -40,32 +40,28 @@ namespace ProyectoBackend.Infrastructure
         // Actualiza el stock de un componente y notifica a los observadores.
         public void SetStock(string productName, int quantity)
         {
-            // 1. Actualizar memoria (lo que ya tenías)
+     
             _stock[productName] = quantity;
             Notify(productName, quantity);
 
-            // 2. NUEVO: Persistir el cambio en el archivo JSON
             try
             {
-                // Cargamos la lista completa de objetos (con precio, categoría, etc.)
+                
                 var allComponents = JsonDataStore.LoadComponents();
 
-                // Buscamos el componente que cambió
+         
                 var itemToUpdate = allComponents.FirstOrDefault(c => c.Name == productName);
 
                 if (itemToUpdate != null)
                 {
-                    // Como los records son inmutables en C# 9+, creamos una copia con el nuevo stock
-                    // O si cambiaste ComponentDto a clase normal, solo asigna: itemToUpdate.Stock = quantity;
+                    
 
-                    // Si ComponentDto es un 'record' (como en tu código original):
                     var updatedItem = itemToUpdate with { Stock = quantity };
 
-                    // Reemplazamos en la lista
                     allComponents.Remove(itemToUpdate);
                     allComponents.Add(updatedItem);
 
-                    // Guardamos en disco
+                   
                     JsonDataStore.SaveComponents(allComponents);
                 }
             }

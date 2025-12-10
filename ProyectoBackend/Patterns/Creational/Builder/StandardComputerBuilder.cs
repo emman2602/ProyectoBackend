@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using ProyectoBackend.Patterns.Behavioral.Command; // Importante
+using ProyectoBackend.Patterns.Behavioral.Command; 
 using ProyectoBackend.Patterns.Creational.AbstractFactory;
 using ProyectoBackend.Patterns.Structural.Composite;
 
